@@ -1,0 +1,29 @@
+
+/**Navigation**/
+
+.nav {
+	@include mq() {
+		@include flexy($disp: flex, $dir: row);
+	}
+	&__item {
+		list-style: none;
+		@include mq() {
+			margin-right: 20px;
+		}
+		& a{
+			display: block;
+			padding: 12px;
+			text-decoration: none;
+			text-align: center;
+			&:link,
+			&:visited {
+				color: $color-text;
+			}
+			&:hover {
+				background-color: $color-primary;
+				color: $color-white;
+				border-radius: 5px;
+			}
+		}
+	}
+}

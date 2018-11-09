@@ -1,0 +1,45 @@
+
+/**Typography**/
+
+.headline--secondary {
+	color: lighten($color-text, 30%);
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.card .headline--secondary {
+	@include mq() {
+		margin-top: 0;
+	}
+}
+
+.headline--primary {
+	color: darken($color-primary, 20%);
+	margin-left: 15px;
+	margin-top: -25px;
+	font-weight: 600;
+}
+
+.headline--secondary,
+.headline--primary {
+	font-family: $font-primary
+}
+
+.link {
+	&:link,
+	&:visited {
+		color: $color-secondary;
+		font-weight: bold;
+	}
+}
+
+.blockquote {
+	border-left: 8px solid $color-primary;
+	padding-left: 15px;
+	margin-bottom: 50px;
+	font-style: italic;
+	font-family: $font-primary;
+	font-size: 1.3rem;
+	line-height: 1.3;
+	letter-spacing: 0.04rem;
+	color: $color-text;
+}

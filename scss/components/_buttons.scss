@@ -1,0 +1,12 @@
+/**buttons Styles**/
+
+.theme__colors {
+	@extend %theme--shape;
+}
+
+@each $tag, $color in $btn-colors {
+	.btn--#{$tag} {
+		background-color: $color;
+		@extend %for--buttons;
+	}
+}

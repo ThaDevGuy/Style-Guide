@@ -1,0 +1,40 @@
+//All Variables And Maps
+
+
+//fonts
+$font-primary: 'Titillium Web', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+
+// Colors
+$color-text: #5D5D5D;
+$color-primary: #74e7c6;
+$color-secondary: #67D8F8;
+$color-white: #fff;
+
+//MQ breakpoints
+$breakpoint: 769px;
+
+
+//maps
+
+//button colors
+$btn-colors: (
+	"default": #67D8F8,
+	"success": #76C682,
+	"error"  : #D67B7C,
+	"warning": #EB6B39,
+	"info"	 : #8A78BA,
+	);
+
+//grid colors
+$grid-colors: (
+	"col--12": #97E5D1,
+	"col--6" : #5EA9C7,
+	"col--4" : #8AE1F9,
+	"col--3" : #D7B5EA,
+	"col--5" : #8FD39B,
+	"col--7" : #E1A2A4,
+	"col--8" : #F0A086,
+	);
+
+

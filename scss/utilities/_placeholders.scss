@@ -1,0 +1,20 @@
+//Placeholders
+
+
+
+//for all theme class
+%theme--shape {
+	display: block;
+	width: 100%;
+	border: none;
+	padding: 10px 0 10px 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+//for all buttons
+%for--buttons {
+	text-transform: uppercase;
+	color: $color-white;
+	font-weight: bold;
+	font-size: .9rem;
+}

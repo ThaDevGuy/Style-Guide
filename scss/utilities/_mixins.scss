@@ -1,0 +1,18 @@
+// All Mixins
+
+
+//Flexbox
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align: null) {
+	display: $disp;
+	flex-direction: $dir;
+	flex-wrap: $wrap;
+	justify-content: $just;
+	align-items: $align;
+}
+
+//Meqia Queries
+@mixin mq() {
+	@media (min-width: $breakpoint) {
+		@content;
+	}
+}

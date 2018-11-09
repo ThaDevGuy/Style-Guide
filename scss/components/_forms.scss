@@ -1,0 +1,16 @@
+.form {
+	.form__label--hidden {
+		display: none;
+	}
+	.form__input {
+		display: block;
+		width: 100%;
+		border: none;
+		padding: 15px 0 5px 10px;
+		border-bottom: 4px solid $color-primary;
+		margin-bottom: 10px;
+	}
+	.btn--default {
+		@extend %theme--shape;
+	}
+}

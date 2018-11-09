@@ -1,0 +1,17 @@
+
+/** Images Styles **/
+.img {
+	&--avatar {
+		display: block;
+		margin: 15px auto;
+		@include mq() {
+			margin: auto;
+		}
+	}
+	&--frame {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		border: 1px solid lighten($color-text, 50%);
+	}
+}
